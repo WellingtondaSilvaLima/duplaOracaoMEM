@@ -41,7 +41,7 @@ def gerar_datas_sessoes(num_sessoes, data_inicio="12/08/2024"):
 rodadas = gerar_rodadas(MULHERES.copy())
 datas_sessoes = gerar_datas_sessoes(len(rodadas))
 
-st.title('Duplas de Oração - MEM')
+st.title('Duplas de Oração - DCD')
 
 for idx, (nome_rodada, duplas) in enumerate(rodadas.items()):
     # Formata o título da sessão com a data
